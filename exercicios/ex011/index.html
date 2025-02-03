@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Uiconstock-Flat-File-Type-Html.512.png" type="image/x-icon">
+    <title>midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinãmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do se navegador.</p>
+
+    <picture><source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Descrição da imagem">
+    </picture>
+
+    <h1>Reproduzir Audio</h1>
+    <p>Vamos aprender a reproduzir áudios em html 5</p>
+    <audio src="midia/02AdeleSetFiretotheRai.mp3"controls autoplay></audio>
+
+    <audio>
+        <source src="midia/02AdeleSetFiretotheRai.mp3" type="audio/mpeg">
+        <source src="midia/02AdeleSetFiretotheRai.mp3" type="">
+    </audio>
+    
+</body>
+</html>
