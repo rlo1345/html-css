@@ -34,7 +34,7 @@
         }
         nav> a{
             color: #e8b783;
-            font-size: 1.1em;
+            font-size: 1em;
             font-weight: bold;
             text-decoration: none;
             padding: 10px;
@@ -76,7 +76,6 @@
         <nav>
             <a href="#">Inicio</a>
             <a href="#">Sobre</a>
-            <a href="#">projetos</a>
             <a href="#">Serviços</a>
             <a href="#">Contato</a>
         </nav>
@@ -84,8 +83,12 @@
 <main>
     <h1>Cuidamos da Sua Tecnologia para Você Cuidar do Seu Negócio!</h1>
     <picture>
-        <img src="imagens/backgroud-1920.jpg" alt="backgroud-1920">
+        <source media="(max-width: 750px)" srcset="imagens/backgroud-300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/backgroud-700.jpg" type="image/jpg">
+        <source media="(max-width: 1400px)" srcset="imagens/backgroud-1000.jpg" type="image/jpg">
+        <img src="imagens/backgroud-1920.jpg" alt="Background de 1920px">
     </picture>
+    
     <h2>Assistência Técnica de Informática: Serviços e Orientações para Clientes</h2>
 <p>Na nossa assistência técnica de informática, oferecemos soluções completas para garantir que seus dispositivos e sistemas funcionem com eficiência e segurança. Confira abaixo nossos serviços e algumas orientações para você, cliente, aproveitar ao máximo nossos recursos.</p>
     
