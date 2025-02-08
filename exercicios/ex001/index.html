@@ -6,131 +6,87 @@
     <title>Meu primeiro site</title>
     <style>
         *{
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
         }
         body{
-            font-family: Arial,sans-serif;
-            background-color:#e8b783 ;
-
+            font-family: Arial, Helvetica, sans-serif;
         }
         header{
-            background-color:#3B0A5A ;
-            text-align: center;
-            height: 150px;
-            padding: 30px;
-        }
-        header > h1{
-            color: #e8b783;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 2.5em;
-            margin-top: 30px;
-        }
-        nav{
-            text-align: center;
-            background-color: ;
-            padding: 30px;
-            margin:30px ;
-        }
-        nav> a{
-            color: #e8b783;
-            font-size: 1em;
-            font-weight: bold;
-            text-decoration: none;
-            padding: 8px;
+            background-color: blue;
+            padding: 100px;
 
         }
-        nav > a:hover{
-            color:#b5b7ae ;
+        header > h1 {
+            color: white;
+            text-align: center;
+            font-size: 3em;
+        }
+        div.nave{
+         
+            text-align: center;
+            background-color: blanchedalmond;
+            padding: 30px;
+        }
+        nav > a{
+            color:black;
+            font-size: 1.5em;
+            text-decoration: none;
+            padding: 10px;
         }
         main{
-            background-color: #e8b783;
-            margin-top: 30px;
+            min-width: 1140;
+            background-color: aqua;
         }
-        main h1{
+        main > h1{
+            font-size:;
             text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            
         }
-        main h2{
-            text-align: center;
-        }
-        main p {
-            text-align: center;
-        }
-        main img{
-            width: 100%;
-            margin-top: 20px;
-        }
-        main section{
-            margin: 0px 0px 0px 0px ;
-
-        }
-        .horizontal{
-           padding: 0px 0px 0px 0px;
-           margin: 0px ;
-        }
-
-
-
-        div{
-            width: 400px;
-            height: 300px;
-            display: inline-block;
-            border-radius: 5px;
+        div.texto{
+       
             margin: auto;
+            padding: 10px;
         }
-        div h2{
-            text-align: center;
-
-        }
-        div p {
+        div.texto > p{
             text-align: justify;
         }
-        #container-a{
-            
-            background-color: #9a0de0;
-            padding: 10px;
-            margin-top: 20px;
-
-        }
-        #container-b{
-            background-color: #9a0de0;
-            padding: 10px;
-        }
-        #container-c{
-            background-color: #9a0de0;
-            padding: 10px;
-        }
-        #container-d{
-            background-color: #9a0de0;
+        img{
+            width: 98vw;
             padding: 10px;
         }
 
-         footer{
-            background-color: #3B0A5A;
-            padding: 20px;
-        }
-        footer> p{
-            color: #e8b783;
-            font-size: 0.6em;
-        }
-        footer a {
-            color: #e8b783;
-            text-decoration: none;
-        }
+
     </style>
 </head>
 <body>
     <header>
         <h1>Next Tech Solutions</h1>
+
+    </header>
+    <div class="nave">
         <nav>
             <a href="#">Inicio</a>
             <a href="#">Sobre</a>
             <a href="#">Serviços</a>
             <a href="#">Contato</a>
         </nav>
-    </header>
+    </div>
 <main>
     <h1>Cuidamos da Sua Tecnologia para Você Cuidar do Seu Negócio!</h1>
+    <div class="texto">
+        <p>No mundo acelerado e altamente conectado de hoje, a tecnologia é o coração de qualquer negócio bem-sucedido. Desde a gestão de operações diárias até a comunicação com clientes e a proteção de dados, a infraestrutura tecnológica é essencial para o crescimento e a sustentabilidade das empresas. No entanto, gerenciar essa complexa rede de sistemas, softwares e dispositivos pode ser um desafio significativo, especialmente quando o foco principal deve estar no core business.
+            É aí que entramos em cena. Nossa missão é simples, mas poderosa: cuidamos da sua tecnologia para que você possa cuidar do que realmente importa – o seu negócio. Sabemos que cada minuto dedicado a resolver problemas técnicos é um minuto que poderia ser investido em estratégias, inovação e atendimento ao cliente. Por isso, assumimos a responsabilidade de garantir que sua infraestrutura tecnológica funcione de maneira eficiente, segura e sem interrupções.
+        
+            Oferecemos soluções personalizadas que se adaptam às necessidades específicas do seu negócio, desde o suporte técnico proativo até a gestão de redes, cibersegurança e backup de dados. Nossa equipe de especialistas está sempre pronta para prevenir falhas, resolver problemas e implementar atualizações que mantenham sua empresa à frente da concorrência.
+        
+            Com a gente, você pode ter a tranquilidade de saber que sua tecnologia está em boas mãos. Enquanto você se concentra em expandir seus negócios, construir relacionamentos com clientes e explorar novas oportunidades, nós garantimos que a parte técnica esteja sempre funcionando perfeitamente.
+        
+            Cuidamos da sua tecnologia para que você possa cuidar do seu negócio. Porque, no final do dia, o sucesso da sua empresa é o nosso sucesso também. Vamos juntos transformar desafios tecnológicos em vantagens competitivas!
+        </p>
+    </div>
     <picture>
         <source media="(max-width: 750px)" srcset="imagens/backgroud-300.jpg" type="image/jpg">
         <source media="(max-width: 1050px)" srcset="imagens/backgroud-700.jpg" type="image/jpg">
@@ -143,7 +99,7 @@
         <p>Na nossa assistência técnica de informática, oferecemos soluções completas para garantir que seus dispositivos e sistemas funcionem com eficiência e segurança. Confira abaixo nossos serviços e algumas orientações para você, cliente, aproveitar ao máximo nossos recursos.</p>
     </section>
 
-        <section class="horizontal">
+        <section>
             <div id="container-a">
                 <h2>Upgrade de Hardware</h2>
                 <p>Melhoramos o desempenho do seu equipamento com a instalação de novos componentes, como memória RAM, SSDs e placas.</p>
