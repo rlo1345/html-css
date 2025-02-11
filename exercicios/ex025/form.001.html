@@ -11,8 +11,10 @@
     </style>
 </head>
 <body>
+    <!--autocomplete="off" para desabilitar o completador automatico.
+        method='post oculta os dados na url do navegador'-->
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php"> <!--autocomplete="off" para desabilitar o completador automatico-->
+    <form action="cadastro.php" method="post"> 
         <p><label for="inome">nome:</label> <input type="text" name="nome" id="inome"></p>
 
         <p><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome">
@@ -20,9 +22,7 @@
 
         </p>
     </form>
-    <p>nome: <input type="text"></p>
-    <p>Sobrenome: <input type="text"></p>
-    <p><input type="submit"></p>
+  
 
 
 
