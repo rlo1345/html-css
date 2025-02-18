@@ -1,0 +1,16 @@
+@charset "UTH-8";
+body{
+    background-color:;
+}
+header, nav{
+    flex-flow: column nowrap;
+}
+header > h1{
+    flex-basis: 50px;
+}
+nav > a {
+    width: 20vw;
+}
+main{
+    width:98%;
+}

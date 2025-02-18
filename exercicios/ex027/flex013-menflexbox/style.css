@@ -22,33 +22,55 @@ header{
     align-items: center;
 }
 header > h1{
-    border: dotted black;
+   /* border: dotted black;*/
     flex: 0 0 200px;
 }
 nav{
-    border: dotted black;
+   /* border: dotted black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 nav > a{
-    background-color: black;
+    background-color: ;
+   
     color: white;
-    padding: 9px;
-    margin: 5px;
+    padding: 10px;
+    margin: 20px;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
 }
 nav > a:hover{
-    background-color: white;
+   /* background-color: white;*/
     color: black;
     transition: 0.4s;
 }
 main{
+    width: 1140px;
     background-color: white;
-    margin: 15px;
+    margin: auto;
+    margin-top: 10px;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
+}
+main >h2{
+    text-align: center;
+}
+main > p{
+    text-align: justify;
+}
+footer{
+    background-color: gray;
+    padding: 20px;
+}
+footer >div{
+    background-color: aliceblue;
+}
+footer > p{
+    font-size: 0.8em;
+}
+@media screen  {
+    
 }
