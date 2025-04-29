@@ -47,7 +47,7 @@ nav > a:hover{
     transition: 0.4s;
 }
 main{
-    width: 1140px;
+    width: 100%;
     background-color: white;
     margin: auto;
     margin-top: 10px;
